@@ -59,7 +59,7 @@
 # -------------------------
 
 - name: area:app
-  colors: 1d76db
+  color: 1d76db
   description: Regarding the user web app
 
 - name: area:devops
