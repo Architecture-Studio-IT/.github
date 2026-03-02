@@ -3,15 +3,15 @@
 # -------------------------
 
 - name: priority:high
-  color: b60205
+  color: "b60205"
   description: Do it as soon as possible, this issue is very important
 
 - name: priority:medium
-  color: fbca04
+  color: "fbca04"
   description: Important priority but don't need immediate action
 
 - name: priority:low
-  color: 006b75
+  color: "006b75"
   description: This issue or pull request already exists
 
 # -------------------------
@@ -19,27 +19,27 @@
 # -------------------------
 
 - name: type:bug
-  color: b60205
+  color: "b60205"
   description: Something isn't working
 
 - name: type:chore
-  color: f7b360
+  color: "f7b360"
   description: Maintenance or cleaning tasks without direct functional impact
 
 - name: type:docs
-  color: 03c0dd
+  color: "03c0dd"
   description: Improvements or additions to documentation
 
 - name: type:feature
-  color: a4b77b
+  color: "a4b77b"
   description: Adding a new feature or capability to the product
 
 - name: type:improvement
-  color: 801094
+  color: "801094"
   description: Improving an existing behavior without introducing a new feature
 
 - name: type:refactor
-  color: 0052cc
+  color: "0052cc"
   description: Change of code without changing logic
 
 # -------------------------
@@ -47,11 +47,11 @@
 # -------------------------
 
 - name: request:help
-  color: 008672
+  color: "008672"
   description: Extra attention is needed
 
 - name: request:question
-  color: d876e3
+  color: "d876e3"
   description: Further information is requested
 
 # -------------------------
@@ -59,19 +59,19 @@
 # -------------------------
 
 - name: area:app
-  color: 1d76db
+  color: "1d76db"
   description: Regarding the user web app
 
 - name: area:devops
-  color: 5b4b8a
+  color: "5b4b8a"
   description: Regarding CI/CD, infrastructure, and pipelines
 
 - name: area:database
-  color: 006b75
+  color: "006b75"
   description: This relates to the database or migrations.
 
 - name: area:scrapper
-  color: 5319e7
+  color: "5319e7"
   description: This concerns a modification to the scraping logic.
 
 # -------------------------
@@ -79,13 +79,13 @@
 # -------------------------
 
 - name: release:patch
-  color: 0366d6
+  color: "0366d6"
   description: Minor correction
 
 - name: release:minor
-  color: 6f42c1
+  color: "6f42c1"
   description: Non-breaking / backwards-compatible feature or improvement
 
 - name: release:major
-  color: d73a4a
+  color: "d73a4a"
   description: Breaking change or major version update
